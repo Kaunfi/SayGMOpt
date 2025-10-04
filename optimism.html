@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimism - Say GM</title>
+    <script src="https://unpkg.com/ethers@6.6.1/dist/ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="menuToggle">☰</button>
+
+    <div id="menu" class="menu">
+        <ul>
+            <li><a href="/base">Base</a></li>
+            <li><a href="/soneium">Soneium</a></li>
+            <li><a href="/ink">INK</a></li>
+            <li><a href="/unichain">Unichain</a></li>
+            <li><a href="/megaeth">Mega ETH</a></li>
+        </ul>
+    </div>
+    <div id="gmCountContainer">
+        Your GM: <span id="gmCount">0</span>
+    </div>
+    <button id="connectButton">Connect Wallet</button>
+    <div class="content">
+        <button class="gm-button" id="gmButton">GM</button>
+    </div>
+    <div id="message"></div>
+    <div class="opt-logo-container">
+        <img src="optimism-ethereum-op-logo.svg" alt="Optimism Logo" class="opt-logo">
+    </div>
+</body>
+</html>
